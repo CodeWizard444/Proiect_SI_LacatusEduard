@@ -30,7 +30,7 @@ Finish
 Click dreapta pe proiect → Properties
 Java Compiler / Java Build Path → setează pe Java 8
 
-Rulare din consolă (Windows)
+## Rulare din consolă (Windows)
 1) Intră în folderul proiectului
    cd Proiect_SI_LacatusEduard
 2) (Opțional) Compilează sursele (dacă nu ai deja bin/)
@@ -39,7 +39,7 @@ javac -cp "lib\jade.jar" -d bin src\proiect\*.java
 3) Pornește agenții (configurația folosită în proiect)
    java -cp "bin;lib/jade.jar" jade.Boot -gui "Banca:proiect.BankAgent;ATM1:proiect.ATMAgent;ATM2:proiect.ATMAgent;Utilizator:proiect.UserGuiAgent"
 
-Rulare din consolă (Linux / macOS)
+## Rulare din consolă (Linux / macOS)
 1) Intră în folderul proiectului
    cd Proiect_SI_LacatusEduard
 2) (Opțional) Compilează sursele
