@@ -34,16 +34,16 @@ Java Compiler / Java Build Path → setează pe Java 8
 1) Intră în folderul proiectului
    cd Proiect_SI_LacatusEduard
 2) (Opțional) Compilează sursele (dacă nu ai deja bin/)
-   mkdir bin
+mkdir bin
 javac -cp "lib\jade.jar" -d bin src\proiect\*.java
 3) Pornește agenții (configurația folosită în proiect)
-   java -cp "bin;lib/jade.jar" jade.Boot -gui "Banca:proiect.BankAgent;ATM1:proiect.ATMAgent;ATM2:proiect.ATMAgent;Utilizator:proiect.UserGuiAgent"
+java -cp "bin;lib/jade.jar" jade.Boot -gui "Banca:proiect.BankAgent;ATM1:proiect.ATMAgent;ATM2:proiect.ATMAgent;Utilizator:proiect.UserGuiAgent"
 
 ## Rulare din consolă (Linux / macOS)
 1) Intră în folderul proiectului
-   cd Proiect_SI_LacatusEduard
+cd Proiect_SI_LacatusEduard
 2) (Opțional) Compilează sursele
-   mkdir -p bin
+mkdir -p bin
 javac -cp "lib/jade.jar" -d bin src/proiect/*.java
 3) Pornește agenții
 Pe Linux/macOS separatorul de classpath este : (nu ;)
